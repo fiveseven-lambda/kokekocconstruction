@@ -6,12 +6,16 @@
 		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
-		<input type="text" id="first" value="ｺ">
-		<input type="text" id="second" value="ｹ">
-		<input type="text" id="third" value="ｯ">
-		<input type="text" id="fourth" value="w">
+		<input type="text" id="first" value="ｺ" onchange="copied_clear()">
+		<input type="text" id="second" value="ｹ" onchange="copied_clear()">
+		<input type="text" id="third" value="ｯ" onchange="copied_clear()">
+		<input type="text" id="fourth" value="w" onchange="copied_clear()">
+		<input type="text" id="fifth" value="ｰ" onchange="copied_clear()">
+		<input type="text" id="sixth" value="!" onchange="copied_clear()">
 		<button onclick="change()">生成</button>
 		<p id="dest">ｺｯwwｺｯwwｺｹｯwwwｺｯwwｺｹｯwwwｺｹｯｺｯwwwｺｯwwｺｯwwｺｹｯwwwｺｯwwｺｹｯwwwｺｹｯｺｯwwwｺｹｰｰｰｰｯ!!!wwwwwｺｯwwｺｯwwｺｹｯwwwｺｯwwｺｹｯwwwｺｹｯｺｯwwwｺｯwwｺｯwwｺｹｯwwwｺｯwwwｺｹｯwwwｺｹｯｺｯwwwｺｹｰｰｰｰｯ!!!wwwwwｺｹｯｺｯｯｺｰｰｰｰ!!!!!!wwwwwwwwwww</p>
+		<button onclick="copy()">コピー</button>
+		<p id="copied"></p>
 		<p><a href="https://twitter.com/sounansya_/status/1285171541156573184">出典</a></p>
 	</body>
 </html>
